@@ -10,4 +10,10 @@ function Category ({ category, data, addToCart }) {
             [itemId] : (prevLikes[itemId] || 0) + 1,
         }));
     };
+
+    return (
+        <div>
+            
+        </div>
+    )
 }
