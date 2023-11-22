@@ -4,5 +4,10 @@ function Category ({ category, data, addToCart }) {
 
     const [ likes, setLikes] = useState({});
 
-    const handleLike = (itemId) => {}
+    const handleLike = (itemId) => {
+        setLikes((prevLikes) => ({
+            ...prevLikes,
+            [itemId] : (prevLikes[itemId] || 0) + 1,
+        }));
+    };
 }
