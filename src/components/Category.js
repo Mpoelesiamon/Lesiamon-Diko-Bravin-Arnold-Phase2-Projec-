@@ -13,7 +13,16 @@ function Category ({ category, data, addToCart }) {
 
     return (
         <div>
-            
+            <h2>{category}</h2>
+            <ul>
+                {Object.entries(data).map(([itemId, item]) => (
+                    <li key={itemId}>
+                        <div>
+                            <img src={item.imgUrl} alt={item.name} />
+                        </div>
+                    </li>
+                ))}
+            </ul>
         </div>
     )
 }
