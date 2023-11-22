@@ -26,5 +26,3 @@ function Category({ category, data, addToCart }) {
         </div>
     )
 }
-
-export default Category;
