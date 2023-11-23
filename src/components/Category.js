@@ -16,9 +16,9 @@ function Category({ category, data, addToCart }) {
       <h2>{category}</h2>
       <ul>
         {Object.entries(data).map(([itemId, item]) => (
-          <li key={itemId}>
+          <li id= 'item'key={itemId}>
             <div>
-              <img src={item.imgUrl} alt={item.name} />
+              <img id='item-img' src={item.imgUrl} alt={item.name} />
             </div>
             <div>
               <p>Name: {item.name}</p>
