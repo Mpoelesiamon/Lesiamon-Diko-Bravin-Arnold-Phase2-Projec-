@@ -258,3 +258,64 @@ button:hover {
 #nav{
   display: inline-block;
 }
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li img {
+  max-width: 250px; 
+  max-height: 1500px; 
+  margin-right: 10px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
